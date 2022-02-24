@@ -28,57 +28,19 @@ a {
   color: #11999e;
 }
 
-.intro {
-  background-color: #e8ecec;
-  height: 150px;
-}
-
-.nav-bar {
-  text-align: left;
-}
-
-#opt {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.tar {
-  display: inline;
-  font-size: 1.5em;
-  font-family: "Roboto Condensed", sans-serif;
-  margin-left: 20px;
-}
-
-.options {
-  position: relative;
-  top: 35px;
-}
-
-.intro-img {
-  float: left;
-  margin-left: 100px;
-  margin-right: 50px;
-  border-radius: 50%;
-  border: 5px solid white;
-}
-
 .top-container {
   background-color: #e8ecec;
   position: relative;
-  padding-top: 100px;
+  width: 100%;
 }
 
 .middle-container {
+  margin-top: 50px;
 }
 
 .bottom-container {
   background-color: #e8ecec;
   margin-top: 50px;
-}
-
-p {
-  font-size: 1.5em;
 }
 
 .pro {
@@ -90,15 +52,17 @@ a:hover {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+  position: relative;
+  display: inline-block;
 }
 
 .top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 300px;
+  position: relative;
+  display: block;
+}
+
+.container-fluid {
+  padding: 3% 20%;
 }
 
 .computer {
@@ -126,10 +90,10 @@ a:hover {
 }
 
 .hr-style {
-  border-style: dotted none none;
   border-width: 10px;
-  width: 100px;
+  width: 60px;
   color: #9ad0ec;
+  border-style: dotted none none;
 }
 /* top right bottom left */
 .skill-row {
@@ -151,4 +115,8 @@ a:hover {
   border-radius: 8em;
   font-size: 30px;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-size: 1.5em;
 }
